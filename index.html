@@ -1,0 +1,336 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio Elena Gireva Front Dev</title>
+    <link rel="icon" href="Logo/logo.png" sizes="100x100" type="image/png">
+    <link rel="canonical" href="https://getbootstrap.com/docs/5.0/examples/pricing/">
+    <link href="/docs/5.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="apple-touch-icon" href="/docs/5.0/assets/img/favicons/apple-touch-icon.png" sizes="180x180" class="">
+    <link rel="icon" href="/docs/5.0/assets/img/favicons/favicon-32x32.png" sizes="32x32" type="image/png">
+    <link rel="icon" href="/docs/5.0/assets/img/favicons/favicon-16x16.png" sizes="16x16" type="image/png">
+    <link rel="manifest" href="/docs/5.0/assets/img/favicons/manifest.json">
+    <link rel="mask-icon" href="/docs/5.0/assets/img/favicons/safari-pinned-tab.svg" color="#7952b3">
+    <link rel="icon" href="/docs/5.0/assets/img/favicons/favicon.ico">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.10.4/gsap.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+    <script src="https://code.jquery.com/jquery-git.min.js"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.10.4/gsap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.10.4/TextPlugin.min.js"></script>
+</head>
+<body>
+<section id = "navbarTop" >
+    <nav class="navbar navbar-expand-sm navbar-dark" aria-label="Third navbar example">
+      <div class="container-fluid content">
+        <div class="col-12 col-md  ms-1">
+          <img class="mb-2 mt-2 image " src="Logo/logo.png" alt="logotip" width="55" height="60">
+          
+          <a class="navbar-brand fw-bolder" href="#about">Elena Gireva</a>
+          
+          <a class="navbar-brand fw-bolder" href="#about">Frontend developer</a>
+          <div class="mx-2 ms-4 mt-3" data-aos="fade-down" data-aos-easing="linear" data-aos-duration="1200">
+            
+            <a href="https://github.com/elena-gireva" target="_blank" class="imgFooter">
+              <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor" class="bi bi-github me-4 imgFooter" viewBox="0 0 16 16">
+                <path d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27.68 0 1.36.09 2 .27 1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.012 8.012 0 0 0 16 8c0-4.42-3.58-8-8-8z"/>
+              </svg>
+            </a>
+            <a href="https://www.linkedin.com/in/elena-gireva-662407227/" target="_blank" class="imgFooter">
+              <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor" class="bi bi-linkedin me-4 imgFooter" viewBox="0 0 16 16">
+                <path d="M0 1.146C0 .513.526 0 1.175 0h13.65C15.474 0 16 .513 16 1.146v13.708c0 .633-.526 1.146-1.175 1.146H1.175C.526 16 0 15.487 0 14.854V1.146zm4.943 12.248V6.169H2.542v7.225h2.401zm-1.2-8.212c.837 0 1.358-.554 1.358-1.248-.015-.709-.52-1.248-1.342-1.248-.822 0-1.359.54-1.359 1.248 0 .694.521 1.248 1.327 1.248h.016zm4.908 8.212V9.359c0-.216.016-.432.08-.586.173-.431.568-.878 1.232-.878.869 0 1.216.662 1.216 1.634v3.865h2.401V9.25c0-2.22-1.184-3.252-2.764-3.252-1.274 0-1.845.7-2.165 1.193v.025h-.016a5.54 5.54 0 0 1 .016-.025V6.169h-2.4c.03.678 0 7.225 0 7.225h2.4z"/>
+              </svg>
+            </a href="https://wa.me/79091339191" target="_blank" class="imgFooter">
+              <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor" class="bi bi-whatsapp imgFooter" viewBox="0 0 16 16">
+                <path d="M13.601 2.326A7.854 7.854 0 0 0 7.994 0C3.627 0 .068 3.558.064 7.926c0 1.399.366 2.76 1.057 3.965L0 16l4.204-1.102a7.933 7.933 0 0 0 3.79.965h.004c4.368 0 7.926-3.558 7.93-7.93A7.898 7.898 0 0 0 13.6 2.326zM7.994 14.521a6.573 6.573 0 0 1-3.356-.92l-.24-.144-2.494.654.666-2.433-.156-.251a6.56 6.56 0 0 1-1.007-3.505c0-3.626 2.957-6.584 6.591-6.584a6.56 6.56 0 0 1 4.66 1.931 6.557 6.557 0 0 1 1.928 4.66c-.004 3.639-2.961 6.592-6.592 6.592zm3.615-4.934c-.197-.099-1.17-.578-1.353-.646-.182-.065-.315-.099-.445.099-.133.197-.513.646-.627.775-.114.133-.232.148-.43.05-.197-.1-.836-.308-1.592-.985-.59-.525-.985-1.175-1.103-1.372-.114-.198-.011-.304.088-.403.087-.088.197-.232.296-.346.1-.114.133-.198.198-.33.065-.134.034-.248-.015-.347-.05-.099-.445-1.076-.612-1.47-.16-.389-.323-.335-.445-.34-.114-.007-.247-.007-.38-.007a.729.729 0 0 0-.529.247c-.182.198-.691.677-.691 1.654 0 .977.71 1.916.81 2.049.098.133 1.394 2.132 3.383 2.992.47.205.84.326 1.129.418.475.152.904.129 1.246.08.38-.058 1.171-.48 1.338-.943.164-.464.164-.86.114-.943-.049-.084-.182-.133-.38-.232z"/>
+              </svg>
+            </a>
+    
+          </div>
+        </div>
+       
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarsExample03" aria-controls="navbarsExample03" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+      
+
+        <div class="collapse navbar-collapse" id="navbarsExample03">
+          <ul  class="navbar-nav ms-auto mb-2 mb-sm-0">
+            <li class="nav-item">
+              <a class="navbar-brand active fw-bolder" aria-current="page" href="#about">About me</a>
+            </li> 
+            <li class="nav-item">
+              <a class="navbar-brand active fw-bolder" href="#photos">Portfolio</a>
+            </li>
+            <li class="nav-item">
+              <a class="navbar-brand active fw-bolder" aria-current="page" href="resume.html">Resume</a>
+            </li>
+            <li class="nav-item">
+              <a  class="navbar-brand active fw-bolder" aria-current="page" href="#reviews">Skills</a>
+            </li>
+            <li class="nav-item">
+              <a class="navbar-brand active fw-bolder" aria-current="page" href="#order">Order your website</a>
+            </li>
+          </ul>
+          
+        </div>
+      </div>
+    </nav>
+</section>
+
+<section id = "about" >
+    <div class="position-relative overflow-hidden p-3 p-md-5 m-md-3 text-center ">
+        <div class="col-md-8 p-lg-5 mx-auto my-3">
+            <img class="mb-2" src="selfi color.png" alt="selfi" width="180" height="180"> 
+            <h1 class="display-6 fw-bolder">Hi, my name is Elena!</h1>
+            <p class="lead  fs-4 fw-normal">I am a frontend developer, in IT more than 16 years. I have been programming in different languages. Now I live in Russia, I like to travel. I studied at the Canadian School of Programming. Welcome to my portfolio website!
+        
+    </div>
+</section>
+
+ 
+  <!-- слайды портфолио нач-->
+  <section id = "photos">
+    <h2 class="pb-2 border-bottom px-4 py-5">Portfolio</h2>
+   
+    <div class="twoCards">
+      <div class="card"data-aos="fade-down-right" data-aos-easing="linear" data-aos-duration="1200">
+        <a href="https://fitnessgym.glitch.me/"><img src="fitnessScreen.png"class="w-30 h-20 d-md-block mx-auto " alt="fitness"width="90%" ></a>
+        <h4>Gym</h4>
+        <h6>Landing page, HTML5/CSS3+JavaScript+Bootstrap5, adaptive web design</h6>
+        <button class="btnCard"><a href="https://fitnessgym.glitch.me/">See more...</a></button>
+      </div>
+      <div class="card" data-aos="fade-down-left"data-aos-easing="linear" data-aos-duration="1200">
+        <a href="https://photographer1.glitch.me"><img  src="photograferScreen.png" class="w-30 h-20 d-md-block mx-auto" alt="photographer" width="90%"></a>
+        <h4>Photographer's Portfolio</h4>
+        <h6>Landing page, HTML5/CSS3+JavaScript+Bootstrap5, adaptive web design</h6>
+        <button class="btnCard"><a href="https://photographer1.glitch.me">See more...</a></button>
+      </div>
+    </div>
+    <div class="twoCards">
+      <div class="card"data-aos="fade-down-right" data-aos-easing="linear" data-aos-duration="1200">
+        <a href="https://tic-tac-toe--game.glitch.me/"><img src="tictactoeScreen.png"class="w-30 h-20 d-md-block mx-auto" alt="game"width="90%"></a>
+        <h4>GAME "tic-tac-toe"</h4>
+        <h6>HTML5/CSS3+JavaScript </h6>
+        <button class="btnCard"><a href="https://tic-tac-toe--game.glitch.me/">See more...</a></button>
+      </div>
+      <div class="card"data-aos="fade-down-right" data-aos-easing="linear" data-aos-duration="1200">
+        <a href="https://elena-gireva.github.io/Memory-Game/"><img src="memoryScreen.png"class="w-30 h-20 d-md-block mx-auto" alt="game"width="90%"></a>
+        <h4>GAME "Memory" (find pairs)</h4>
+        <h6>HTML5/CSS3+JavaScript </h6>
+        <button class="btnCard"><a href="https://elena-gireva.github.io/Memory-Game/">See more...</a></button>
+      </div>
+    </div>
+    <div class="twoCards">
+      <div class="card"data-aos="fade-down-right" data-aos-easing="linear" data-aos-duration="1200">
+        <a href="https://music-for-relax.glitch.me"><img src="relaxScreen.png"class="w-30 h-20 d-md-block mx-auto" alt="relax"width="90%"></a>
+        <h4>Timer for Relax music and video</h4>
+        <h6>HTML5/CSS3+JavaScript, adaptive web design</h6>
+        <button class="btnCard"><a href="https://music-for-relax.glitch.me">See more...</a></button>
+      </div>
+      <div class="card" data-aos="fade-down-left"data-aos-easing="linear" data-aos-duration="1200">
+        <a href="https://yoga-classes.glitch.me"><img  src="yogaScreen.png" class="w-30 h-20 d-md-block mx-auto" alt="yoga" width="90%"></a>
+        <h4>Timer for class music and video. Let's do Yoga</h4>
+        <h6>HTML5/CSS3+JavaScript, adaptive web design</h6>
+        <button class="btnCard"><a href="https://yoga-classes.glitch.me">See more...</a></button>
+      </div>
+    </div>
+
+    <div class="twoCards">
+      <div class="card"data-aos="fade-down" data-aos-easing="linear" data-aos-duration="1200">
+        <a href="https://asian-cafe.glitch.me/"><img src="asianCafeScreen.png"class="w-30 h-20 d-md-block mx-auto" alt="asianCafeScreen"width="90%"></a>
+        <h4>Asian Cafe</h4>
+        <h6>Landing page, HTML5/CSS3+JavaScript+Bootstrap5+gsap+JQuery</h6>
+        <button class="btnCard"><a href="https://asian-cafe.glitch.me/">See more...</a></button>
+      </div>
+      <div class="card" data-aos="fade-down"data-aos-easing="linear" data-aos-duration="1200">
+        <a href="https://recipybook.glitch.me/"><img  src="recipyScreen.png" class="w-30 h-20 d-md-block mx-auto" alt="recipy" width="90%"></a>
+        <h4>Choosing a recipe by product</h4>
+        <h6>HTML5/CSS3+JavaScript, adaptive web design</h6>
+        <button class="btnCard"><a href="https://recipybook.glitch.me/">See more...</a></button>
+      </div>
+    </div>
+
+    <div class="twoCards">
+      <div class="card"data-aos="fade-down" data-aos-easing="linear" data-aos-duration="1200">
+        <a href="https://boil-eggs.glitch.me/"><img src="eggScreen.png"class="w-30 h-20 d-md-block mx-auto" alt="eggs" width="90%"></a>
+        <h4>Timer for cooking eggs</h4>
+        <h6>HTML5/CSS3+JavaScript</h6>
+        <button class="btnCard"><a href="https://boil-eggs.glitch.me/">See more...</a></button>
+      </div>
+      <div class="card" data-aos="fade-down"data-aos-easing="linear" data-aos-duration="1200">
+        <a href="https://weather-today.glitch.me/"><img  src="weatherScreen.png" class="w-30 h-20 d-md-block mx-auto" alt="weather" width="90%"></a>
+        <h4>What's the weather today?</h4>
+        <h6>HTML5/CSS3+JavaScript+API</h6>
+        <button class="btnCard"><a href="https://weather-today.glitch.me/">See more...</a></button>
+      </div>
+    </div>
+
+    <div class="twoCards">
+      <div class="card"data-aos="flip-up" data-aos-easing="linear" data-aos-duration="1200">
+        <a href="https://multiplication--table.glitch.me/"><img src="multyScreen.png"class="w-30 h-20 d-md-block mx-auto" alt="multi" width="90%"></a>
+        <h4>Let's learn the Multiplication Table</h4>
+        <h6>HTML5/CSS3+JavaScript (total score)</h6>
+        <button class="btnCard"><a href="https://multiplication--table.glitch.me/">See more...</a></button>
+      </div>
+      <div class="card" data-aos="flip-up"data-aos-easing="linear" data-aos-duration="1200">
+        <a href="https://color-rainbow.glitch.me/"><img  src="rainbowScreen.png" class="w-30 h-20 d-md-block mx-auto" alt="rainbow" width="90%"></a>
+        <h4>Let's color the rainbow</h4>
+        <h6>HTML5/CSS3+JavaScript+gsap, adaptive web design</h6>
+        <button class="btnCard"><a href="https://color-rainbow.glitch.me/">See more...</a></button>
+      </div>
+    </div>
+
+    <div class="twoCards">
+      <div class="card"data-aos="flip-up" data-aos-easing="linear" data-aos-duration="1200">
+        <a href="https://calculationofrepairwork.glitch.me/"><img src="calcScreen.png"class="w-30 h-20 d-md-block mx-auto" alt="calculation" width="90%"></a>
+        <h4>Calculation of repair work</h4>
+        <h6>HTML5/CSS3+JavaScript (calculator)</h6>
+        <button class="btnCard"><a href="https://calculationofrepairwork.glitch.me/">See more...</a></button>
+      </div>
+      <div class="card" data-aos="flip-up"data-aos-easing="linear" data-aos-duration="1200">
+        <a href="https://flower-store-.glitch.me/"><img  src="flowerScreen.png" class="w-30 h-20 d-md-block mx-auto" alt="flower" width="90%"></a>
+        <h4>Flower store</h4>
+        <h6>HTML5/CSS3+JavaScript (countdown + animation)</h6>
+        <button class="btnCard"><a href="https://flower-store-.glitch.me/">See more...</a></button>
+      </div>
+    </div>
+  </section>
+
+  <!-- слайды портфолио кон -->
+
+  <section id = "reviews"  class="p-3 p-md-5 m-md-3 ">
+    <h2 class="pb-2 border-bottom px-4 py-5">My skills</h2>
+    
+    <div class="d-flex mx-4">
+      <div class="d-flex mx-4 skills">
+        <img class="m-2" src="selfi.png" alt="selfi" width="180" height="180">  
+        <button class="btnResume"><a class="lead  fs-5 fw-bolder" href="resume.html">Resume</a></button>
+        <p>(click here!)</p>
+      </div>
+      <div class="d-flex mx-4 skills">
+        <p class="lead  fs-5 fw-normal">I like to create a website layout design, websites with animation in clean code with adaptation to any device. 
+        My skills: </p> 
+        <div class="d-flex mx-2 skillsName">
+          <div class="box green d-flex mx-2">HTML 5/ CSS 3</div>
+          <div class="box oranje d-flex mx-2">JavaScript</div>
+          <div class="box black d-flex mx-2">API</div>
+          <div class="box green d-flex mx-2">GSAP</div>
+          <div class="box oranje d-flex mx-2">Bootstrap 5</div>
+          <div class="box black d-flex mx-2">WordPress</div>
+          <div class="box green d-flex mx-2">Figma</div>
+          <div class="box oranje d-flex mx-2">Git</div>
+        </div>
+          <ul>
+        <p class="lead  fs-5 fw-normal">Now I am studying <b class="lead  fs-5 fw-bolder">React.</b></p>
+        
+      </div>
+      
+  </section>
+  <section id = "order"  class="p-3 p-md-2 m-md-3 ">
+    <h2 class="pb-2 border-bottom px-4 py-5">Order your website</h2>
+    <div class="d-flex skills">
+      <p class="lead  fs-5 fw-normal">If you need a beautiful selling website with adaptation for mobile devices, I will do it with pleasure
+
+        <!-- цены нач -->
+
+      <p class="fs-5 text-muted text-center">Choose your  tariff</p>
+        <div class="d-flex mx-3 tariff">
+          <div class="cardPrice" >
+            <div class="card-body" >
+              <h5 class="card-title">Landing page</h5>
+              <h6 class="card-subtitle mb-2 text-muted fw-bolder fs-3">250$</h6>
+            </div>
+          </div>
+          <div class="cardPrice">
+            <div class="card-body" >
+              <h5 class="card-title">Сreating a layout on Figma</h5>
+              <h6 class="card-subtitle mb-2 text-muted fw-bolder fs-3">200$</h6>
+            </div>
+          </div>
+          <div class="cardPrice" >
+            <div class="card-body" >
+              <h5 class="card-title">Сreating a website on WordPress</h5>
+              <h6 class="card-subtitle mb-2 text-muted fw-bolder fs-3">350$</h6>
+            </div>
+          </div>
+          <div class="cardPrice">
+            <div class="card-body" >
+              <h5 class="card-title">Multi-page website</h5>
+              <h6 class="card-subtitle mb-2 text-muted fw-bolder fs-3" >550$</h6>
+            </div>
+          </div>
+        </div>
+       <div class="col-6 col-md" >
+          <h5>Creating your own website <b class="bigText"></b></h5>
+        </div>
+    </div>
+<!-- цены кон  -->
+    <p class="lead  fs-4 fw-bolder writeToMe"><b>Write to me:</b></p>
+      <form class="d-flex mx-3 formWrite"
+      action="https://formspree.io/f/mvolyvaj"
+      method="POST"
+      enctype="multipart/form-data"
+    >
+      <label>
+        Your email:
+        <input type="email" name="email" required >
+      </label>
+      <label>
+        Your name:
+        <input type="text" name="name" required >
+      </label>
+      <label>
+        Your message:
+        <textarea name="message" required ></textarea>
+      </label>
+      
+      <button type="submit" class="btnCard lead  fs-5 fw-bolder">Send</button>
+    </form>
+  </section>
+  <footer class="pt-4 my-md-5 pt-md-5 border-top ">
+    <div class="row">
+      <div class="col-12 col-md  ms-5">
+        <img class="mb-2 mt-2" src="Logo/logo.png" alt="logotip" width="55" height="60">
+        <small class="d-block mb-3 text-muted">©2022</small>
+        <small class="d-block mb-3 text-muted">Designed & built by Elena Gireva</small>
+      </div>
+      <div class="col-6 col-md" >
+        <h5 class="footertext ms-4">Contacts:</h5>
+        <a href="https://github.com/elena-gireva" target="_blank" class="imgFooter">
+          <svg xmlns="http://www.w3.org/2000/svg" width="35" height="35" fill="currentColor" class="bi bi-github me-4 imgFooter" viewBox="0 0 16 16">
+            <path d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27.68 0 1.36.09 2 .27 1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.012 8.012 0 0 0 16 8c0-4.42-3.58-8-8-8z"/>
+          </svg>
+        </a>
+        <a href="https://www.linkedin.com/in/elena-gireva-662407227/" target="_blank" class="imgFooter">
+          <svg xmlns="http://www.w3.org/2000/svg" width="35" height="35" fill="currentColor" class="bi bi-linkedin me-4 imgFooter" viewBox="0 0 16 16">
+            <path d="M0 1.146C0 .513.526 0 1.175 0h13.65C15.474 0 16 .513 16 1.146v13.708c0 .633-.526 1.146-1.175 1.146H1.175C.526 16 0 15.487 0 14.854V1.146zm4.943 12.248V6.169H2.542v7.225h2.401zm-1.2-8.212c.837 0 1.358-.554 1.358-1.248-.015-.709-.52-1.248-1.342-1.248-.822 0-1.359.54-1.359 1.248 0 .694.521 1.248 1.327 1.248h.016zm4.908 8.212V9.359c0-.216.016-.432.08-.586.173-.431.568-.878 1.232-.878.869 0 1.216.662 1.216 1.634v3.865h2.401V9.25c0-2.22-1.184-3.252-2.764-3.252-1.274 0-1.845.7-2.165 1.193v.025h-.016a5.54 5.54 0 0 1 .016-.025V6.169h-2.4c.03.678 0 7.225 0 7.225h2.4z"/>
+          </svg>
+        </a href="https://wa.me/79091339191" target="_blank" class="imgFooter">
+          <svg xmlns="http://www.w3.org/2000/svg" width="35" height="35" fill="currentColor" class="bi bi-whatsapp imgFooter" viewBox="0 0 16 16">
+            <path d="M13.601 2.326A7.854 7.854 0 0 0 7.994 0C3.627 0 .068 3.558.064 7.926c0 1.399.366 2.76 1.057 3.965L0 16l4.204-1.102a7.933 7.933 0 0 0 3.79.965h.004c4.368 0 7.926-3.558 7.93-7.93A7.898 7.898 0 0 0 13.6 2.326zM7.994 14.521a6.573 6.573 0 0 1-3.356-.92l-.24-.144-2.494.654.666-2.433-.156-.251a6.56 6.56 0 0 1-1.007-3.505c0-3.626 2.957-6.584 6.591-6.584a6.56 6.56 0 0 1 4.66 1.931 6.557 6.557 0 0 1 1.928 4.66c-.004 3.639-2.961 6.592-6.592 6.592zm3.615-4.934c-.197-.099-1.17-.578-1.353-.646-.182-.065-.315-.099-.445.099-.133.197-.513.646-.627.775-.114.133-.232.148-.43.05-.197-.1-.836-.308-1.592-.985-.59-.525-.985-1.175-1.103-1.372-.114-.198-.011-.304.088-.403.087-.088.197-.232.296-.346.1-.114.133-.198.198-.33.065-.134.034-.248-.015-.347-.05-.099-.445-1.076-.612-1.47-.16-.389-.323-.335-.445-.34-.114-.007-.247-.007-.38-.007a.729.729 0 0 0-.529.247c-.182.198-.691.677-.691 1.654 0 .977.71 1.916.81 2.049.098.133 1.394 2.132 3.383 2.992.47.205.84.326 1.129.418.475.152.904.129 1.246.08.38-.058 1.171-.48 1.338-.943.164-.464.164-.86.114-.943-.049-.084-.182-.133-.38-.232z"/>
+          </svg>
+          <!-- <img class="m-2 visibleQR" src="whatsappQR.png" alt="whatsappQR" width="250" height="270">   -->
+        </a>
+
+      </div>
+      
+        
+      <div class="col-6 col-md" >
+        <h5 id ="writingText"></h5>
+      </div>
+    </div>
+  </footer>
+
+  <div id="upbutton"></div>
+  
+    <script src="script.js"></script>
+    <script src="https://formspree.io/js/formbutton-v1.min.js" defer></script>
+      
+</body>
+</html>

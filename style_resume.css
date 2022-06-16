@@ -1,0 +1,139 @@
+.visibleContent {
+    display: none;
+}
+.resumeImg {
+    width: 98%;
+}
+.loader {
+    left: 50%;
+    overflow: hidden;
+    padding: 10px 0;
+    position: absolute;
+    top: 50%;
+    transform: translate(-50%);
+}    
+    .ball {
+        background: #4d484c;
+        border-radius: 5px;
+        display: block;
+        height: 10px;
+        left: 15px;
+        position: absolute;
+        top: 5px;
+        width: 10px;
+        
+        -webkit-animation-duration: 2s;
+        -webkit-animation-iteration-count: infinite;
+        -webkit-animation-name: along;
+        -webkit-animation-timing-function: linear;
+    }
+    
+    .ball2 {
+        background: #95d2f2;
+        border-radius: 5px;
+        display: block;
+        height: 10px;
+        left: 15px;
+        position: absolute;
+        top: 5px;
+        width: 10px;
+        
+        -webkit-animation-duration: 2s;
+        -webkit-animation-iteration-count: infinite;
+        -webkit-animation-name: along;
+        -webkit-animation-timing-function: linear;
+        -webkit-animation-delay: -1s;
+    }
+    
+    ul {
+        margin: 0;
+        padding: 0;
+    }
+    
+    li {
+        background-color: #fa9579;
+        border-radius: 5px;
+        display: inline-block;
+        margin: 0;
+        height: 10px;
+        width: 30px;
+        
+        -webkit-animation-duration: 2s;
+        -webkit-animation-iteration-count: infinite;
+        -webkit-animation-name: around;
+        -webkit-animation-timing-function: linear;
+    }    
+        li:nth-child(1) {
+         -webkit-animation-delay: 0s;
+        }
+        
+        li:nth-child(2) {
+          background-color: #95d2f2;
+         -webkit-animation-delay: 0.2s;
+        }
+    
+        li:nth-child(3) {
+          background-color: #fa9579;
+         -webkit-animation-delay: 0.4s;
+        }
+    
+        li:nth-child(4) {
+          background-color: #95d2f2;
+         -webkit-animation-delay: 0.6s;
+        }
+    
+        li:nth-child(5) {
+            background-color: #fa9579;
+            -webkit-animation-delay: 0.8s;
+        }
+    
+
+
+@-webkit-keyframes around {
+  0% {
+    -webkit-transform :rotate(0deg);
+  }
+  100% {
+    -webkit-transform :rotate(359deg);    
+  }
+}
+
+@-webkit-keyframes along {
+    0% {
+        left: 0;
+        top: 5px;
+    }
+    5% {
+        top: 3px;
+    }
+    10% {
+        top: 5px;
+    }
+    15% {
+        top: 3px;
+    }
+    20% {
+        top: 5px;
+    }
+    25% {
+        top: 3px;
+    }
+    30% {
+        top: 5px;
+    }
+    35% {
+        top: 3px;
+    }
+    40% {
+        top: 5px;
+    }
+    45% {
+        top: 3px;
+    }
+    50% {
+        left: 100%;
+        top: 5px;
+    }
+    100% {
+        left: 100%;
+    }

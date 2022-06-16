@@ -9,10 +9,6 @@ let portfolio = document.querySelector(".portfolio");
 
 AOS.init();
 
-setTimeout(function() {
-  page_preloader.style.display = "none";
-}, 1000);
-
 gsap.from(".box", {x:-90,  duration:2, rotation:30, stagger:.5, repeat:-1});
 gsap.to("#writingText", {
   text: "Don't limit youself!!!",
@@ -48,9 +44,7 @@ $('#upbutton').on('click', function() {
   $('html, body').stop().animate({scrollTop : 0}, 300);
 });
 
-/* paste this line in verbatim */
 window.formbutton=window.formbutton||function(){(formbutton.q=formbutton.q||[]).push(arguments)};
-/* customize formbutton below*/     
 formbutton("create", {
   action: "https://formspree.io/f/mvolyvaj",
   title: "Write to me:",

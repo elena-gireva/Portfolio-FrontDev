@@ -1,9 +1,6 @@
-body {
-    /* background-color: #000; */
-}
 .position-relative {
     background-color: #95d2f2;
-    background-image: url("background3.webp");
+    background-image: url("image/background3.webp");
     background-repeat: no-repeat;
     background-size: cover;
 }
@@ -12,7 +9,7 @@ body {
 }
 .navbar {
     background-color: #fa9579;
-    background-image: url("background1.jpg");
+    background-image: url("image/background1.jpg");
     background-repeat: no-repeat;
     background-size: cover;
 }
@@ -62,7 +59,7 @@ body {
     color: #ffe; 
 }
 .btnCard a:hover, .btnResume a:hover {
-    color: #ffe; /* Цвет ссылки */ 
+    color: #ffe; 
 }
 .btnResume a{
     text-decoration: none;
@@ -111,7 +108,7 @@ textarea {
 }
 footer {
     background-color: #fa9579;
-    background-image: url("background1.jpg");
+    background-image: url("image/background1.jpg");
     background-repeat: no-repeat;
 
 }
@@ -136,7 +133,7 @@ footer {
 
 #order {
     background-color: #95d2f2;
-    background-image: url("background3.webp");
+    background-image: url("image/background3.webp");
     background-repeat: no-repeat;
     background-size: cover;
 }
@@ -153,7 +150,7 @@ footer {
     text-shadow: #4d484c 1px 1px;
 }
 #upbutton {
-    background: url("buttons UPP/up6.png") no-repeat top left;
+    background: url("image/up6.png") no-repeat top left;
     height: 100px;
     width: 100px;
     bottom: 30px;

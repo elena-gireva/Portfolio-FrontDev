@@ -70,7 +70,8 @@ formbutton("create", {
       backgroundColor: "gray"
     },
     button: {
-      backgroundColor: "gray"
+      backgroundColor: "gray",
+      right: "10px"
     }
   }
 });

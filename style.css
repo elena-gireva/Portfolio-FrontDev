@@ -84,11 +84,8 @@
 }
 input , textarea {
     height: 2rem;
-    width: 20rem;
+    width: 15rem;
     margin: 1%;
-}
-textarea {
-    width: 26rem;
 }
 .box {
     width: 100px;
